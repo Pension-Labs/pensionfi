@@ -1,5 +1,6 @@
-import React, { useContext } from 'react';
-import { IdiomaContext } from '@/Context/IdiomaContext';
+'use client';
+import { useContext } from 'react';
+import { IdiomaContext } from '../../../Context/IdiomaContext';
 import GoBiblioteca from '@/componets/GoBiblioteca';
 
 const Robert = () => {
