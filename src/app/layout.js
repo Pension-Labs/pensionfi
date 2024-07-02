@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { IdiomaProvider } from '../Context/IdiomaContext.js';
-import Navbar from '../componets/Navbar';
+import Menu from '../componets/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -13,9 +13,9 @@ const inter = Inter({ subsets: ['latin'] });
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className="flex flex-col items-center relative  min-h-screen px-2 pb-4 mx-auto w-full lg:max-w-7xl">
+			<body className="flex flex-col items-center relative  min-h-screen px-2 pb-4 mx-auto w-full">
 				<IdiomaProvider>
-					<Navbar />
+					<Menu />
 					{children}
 				</IdiomaProvider>
 			</body>

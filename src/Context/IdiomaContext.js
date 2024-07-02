@@ -16,6 +16,7 @@ const traducciones = {
 			pensionfi_simulator: 'Simulador antiguo Pensionfi',
 			learn: 'Aprende',
 			data: 'Datos',
+			grap: 'Graficos',
 			library: 'Biblioteca',
 			contact: 'Contacto',
 		},
@@ -484,6 +485,9 @@ const traducciones = {
 				row10: 'Edad promedio de ingreso al sistema',
 			},
 		},
+		grap: {
+			title: 'Graficos',
+		},
 		contact: {
 			title: 'Contáctanos',
 			desc: 'En Pension Fi, estaremos contentos de recibir tu mensaje. Intentaremos responderlo a la brevedad.',
@@ -530,6 +534,7 @@ const traducciones = {
 			pensionfi_simulator: 'Old Pensionfi Simulator',
 			learn: 'Learn',
 			data: 'Data',
+			grap: 'Graficos',
 			library: 'Library',
 			contact: 'Contact',
 		},
@@ -939,6 +944,9 @@ const traducciones = {
 				row9: 'Average contribution density',
 				row10: 'Average age of entry into the system',
 			},
+		},
+		grap: {
+			title: 'Graficos',
 		},
 		contact: {
 			title: 'Contact us',
