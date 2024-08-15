@@ -24,7 +24,7 @@ const traducciones = {
 			header: (
 				<>
 					Diseñamos, desarrollamos y comunicamos <br />
-					soluciones previsionales,
+					soluciones previsionales
 				</>
 			),
 			newsletter: {
